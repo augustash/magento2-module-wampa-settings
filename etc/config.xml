@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+	<default>
+		<augustash_wampasettings>
+			<company_footer>
+				<company_footer_enabled>0</company_footer_enabled>
+        <company_address><![CDATA[PHP 342 North 400 East Valparaiso, IN 46383]]></company_address>
+				<company_phone><![CDATA[800-362-6951]]></company_phone>
+        <company_fax><![CDATA[800-255-7985]]></company_fax>
+        <company_email><![CDATA[info@phpdistribution.com]]></company_email>
+        <company_copyright><![CDATA[PHP Distribution Inc. All Rights Reserved]]></company_copyright>
+			</company_footer>
+    </augustash_wampasettings>
+  </default>
+</config>

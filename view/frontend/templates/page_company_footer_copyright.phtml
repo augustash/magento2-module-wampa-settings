@@ -1,0 +1,11 @@
+<?php
+
+/**
+ * AAI CHANGE: adding footer contact and copyright contact info controlled via configuration. 
+ */
+?>
+<?php if ($block->getIsFooterEnabled()) : ?>
+
+  <p class="copyright-date">&copy; <?php echo date("Y"); ?> <?php echo $block->getFooterCopyright(); ?></p>
+
+<?php endif; ?>

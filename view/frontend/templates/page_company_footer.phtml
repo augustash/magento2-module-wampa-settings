@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * AAI CHANGE: adding footer contact and copyright contact info controlled via configuration. 
+ */
+?>
+<?php if ($block->getIsFooterEnabled()) : ?>
+
+  <div>
+    <div class="contact-info">
+      <p><?php echo $block->getFooterAddress(); ?></p>
+      <p><a href="tel:+<?php echo $block->getFooterPhone(); ?>"><?php echo $block->getFooterPhone(); ?></a></p>
+      <p><a href="tel:+<?php echo $block->getFooterFax(); ?>"><?php echo $block->getFooterFax(); ?></a></p>
+      <p><a href="tel:+<?php echo $block->getFooterEmail(); ?>"><?php echo $block->getFooterEmail(); ?></a></p>
+    </div>
+  </div>
+
+<?php endif; ?>
